@@ -1,5 +1,6 @@
 package com.example.projectel
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -57,6 +58,10 @@ class MainActivity : AppCompatActivity() {
     fun dataTest(view: View) {
         Toast.makeText(this, "Data size: "+listName.size, Toast.LENGTH_LONG).show()
         Toast.makeText(this, listName[13], Toast.LENGTH_LONG).show()
+    }
+
+    fun playersIntent(view: View) {
+        startActivity(Intent(this, PlayersActivity::class.java));
     }
 
 

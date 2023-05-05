@@ -64,4 +64,16 @@
         android:layout_weight="1"
         android:text="Barons Wrocław" />
 
+    <Button
+        android:id="@+id/gracze"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="playersIntent"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:layout_weight="1"
+        android:text="zobacz Graczy" />
+
 </LinearLayout>
+
